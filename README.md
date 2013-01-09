@@ -1,4 +1,4 @@
 www-koneki-material
 ===================
 
-Screenshots originals and sample project for koneki website
+Screenshots originals and sample project for [Koneki](http://eclipse.org/koneki/) website.
