@@ -4,28 +4,28 @@ local M = {}
  
 --- A rectangle 
 -- @type rectangle
--- @field [parent=#rectangle] #number x 
--- @field [parent=#rectangle] #number y 
--- @field [parent=#rectangle] #number width
--- @field [parent=#rectangle] #number height
+-- @field #number x 
+-- @field #number y 
+-- @field #number width
+-- @field #number height
 local R = {x=0, y=0, width=100, height=100, }
  
 --- Move the rectangle
 -- @function [parent=#rectangle] move
--- @param #rectangle self
--- @param #number x
--- @param #number y
+-- @param self
+-- @param x
+-- @param y
 function R.move(self,x,y)
   self.x = self.x + x
   self.y = self.y + y
 end
- 
+ sbe
 --- Create a new rectangle
 -- @function [parent=#geometry] newRectangle
--- @param #number x
--- @param #number y
--- @param #number width
--- @param #number height
+-- @param x
+-- @param y
+-- @param width
+-- @param height
 -- @return #rectangle the created rectangle
 function M.newRectangle(x,y,width,height)
   local newrectangle = {x=x,y=y,width=width,height=height}
