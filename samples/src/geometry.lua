@@ -19,7 +19,6 @@ function R.move(self,x,y)
   self.x = self.x + x
   self.y = self.y + y
 end
- sbe
 --- Create a new rectangle
 -- @function [parent=#geometry] newRectangle
 -- @param x
