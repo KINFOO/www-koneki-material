@@ -2,5 +2,6 @@
 <buildpath>
 	<buildpathentry kind="src" path="src"/>
 	<buildpathentry kind="src" path="source"/>
+	<buildpathentry kind="src" path="doc"/>
 	<buildpathentry kind="con" path="org.eclipse.koneki.ldt.ExecutionEnvironmentContainer/lua/5.1"/>
 </buildpath>
