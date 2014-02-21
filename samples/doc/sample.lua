@@ -1,3 +1,3 @@
---- Using geometry
-local geometry = require 'geometdsfry'                                            
-local rectangle = geometry.
+-- Finally completion on LFS
+local lfs = require 'lfs'
+local pwd = lfs.

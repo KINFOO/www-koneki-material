@@ -1,0 +1,15 @@
+---
+-- @extends geometry#rectangle 
+-- @module cube
+
+--- @field [parent=#cube] #number length
+
+--- @function [parent=#cube] newCube
+-- @param x
+-- @param y
+-- @param z
+-- @param width
+-- @param height
+-- @param length
+-- @return #cube the created cube
+return nil
