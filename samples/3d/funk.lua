@@ -4,5 +4,4 @@
 -- @type funk
 -- @extends geometry#rectangle
 -- @field #string color Flashy color
-
-local i -- #funk
+local M = {}
